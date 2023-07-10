@@ -1,0 +1,466 @@
+/*-------------------------------------------------*/
+/* 1. MOBILE VIEW RESPONSIVE
+/*-------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 1200px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:1200px) {
+
+	.team-img img,
+    .team-img::before {
+		width: 240px;
+		height: 240px;
+	}
+
+	.team-member:before {
+		opacity: 0;
+	}
+
+	.team-img {
+		width: 250px;
+		height: 250px;
+	}
+
+	.clint-img {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.services-rhs li {
+		padding: 15px;
+	}
+
+	.ser-inner h2 {
+		display: block;
+	}
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 992 to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+	.auther-in-im {
+		width: auto;
+	}
+
+	.contact-det span {
+		flex-direction: column;
+	}
+
+	.contact-det i {
+		margin: 0 0 20px 0;
+	}
+
+	.showcase .act2 {
+		transform: none;
+		padding: 0;
+	}
+
+	.work-showcase {
+		padding: 80px 0 100px 0;
+	}
+
+    /*-------------------------*/
+	.menu a:hover {
+		color: #fff;
+	}
+
+	.top-cl-fun {
+		padding: 0 25px;
+	}
+
+	.side-bar.act {
+		width: 100%;
+	}
+
+	.nav .row {
+		align-items: center;
+	}
+
+	.nav {
+		background: #fff;
+		padding: 35px 0;
+	}
+
+	.side-bar-right i {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+	}
+
+	.logo img {
+		max-width: 128px;
+	}
+
+	.nav-inner .menu {
+		position: fixed;
+		left: -500px;
+		top: 0;
+		overflow-y: auto;
+		height: 100vh;
+		width: 300px;
+		background: #16243d;
+		padding: 31px 20px 20px 20px;
+		z-index: 99;
+		transition: all 0.5s ease;
+	}
+
+	.menu ul li:first-child {
+		display: block;
+	}
+
+	.menu li {
+		width: 100%;
+		padding-bottom: 13px;
+	}
+
+	.menu a {
+		color: #fff;
+		width: 100%;
+		border-bottom: 1px solid #908484;
+		padding-bottom: 17px;
+	}
+
+	.menu img {
+		width: 120px;
+		filter: invert(1);
+		margin-bottom: 24px;
+	}
+
+	.menu ul li:last-child {
+		border: 0;
+	}
+
+	.nav-inner .side-bar-right {
+		position: absolute;
+		right: 15px;
+	}
+
+	.logo {
+		position: absolute;
+		transform: scale(0.8);
+	}
+
+	.menu-bar {
+		display: block;
+		position: absolute;
+		left: 15px;
+	}
+
+	.menu ul {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.menu span {
+		position: absolute;
+		right: 20px;
+		top: 0;
+		background: red;
+		color: #fff;
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 17px;
+		cursor: pointer;
+	}
+
+	.menu.menuact {
+		left: 0;
+	}
+    /*-------------------------*/
+
+	.work-showcase::before, .work-showcase::after {
+		display: none;
+	}
+
+	.tab-inner .faq {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.tab-inner .tab-img {
+		width: 100%;
+	}
+
+	.tab {
+		padding-bottom: 0;
+	}
+
+	.faq i {
+		display: none;
+	}
+
+	.blog-det-inn h3 {
+		padding: 15px 0 18px 0;
+	}
+
+	.blg-rhs {
+		margin-top: 60px;
+	}
+
+	.blog-deatiles {
+		padding: 90px 0;
+	}
+
+	.tab-inner p {
+		padding-bottom: 0;
+	}
+
+	.img-aera {
+		margin-top: 50px;
+	}
+
+	.contact-map {
+		margin-top: 50px;
+	}
+
+	.cpy-right-top .cpy {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+		margin: 10px 0;
+	}
+
+	.foo-deati {
+		margin-top: 10px;
+	}
+
+	.contact-det ul {
+		flex-direction: column;
+	}
+
+	.team-member {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.ban-inn {
+		display: block;
+		text-align: center;
+	}
+
+	.banner .ban-lhs .comm-btn {
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.ban-lhs h1 {
+		padding: 0;
+	}
+
+	.ban-lhs p {
+		border-left: 0;
+	}
+
+	.bann-img {
+		margin-top: 80px;
+		display: inline-block;
+		top: 0;
+		position: relative;
+	}
+
+	.banner {
+		padding-bottom: 0;
+		padding-top: 150px;
+	}
+
+	.about-us .abt-text {
+		padding: 50px 0 0 0;
+	}
+
+	.about-us {
+		padding-bottom: 120px;
+	}
+
+	.about-us .abt-img {
+		padding-right: 0;
+	}
+
+	.post-right {
+		margin-top: 25px;
+	}
+
+	.small-img img {
+		width: 100%;
+	}
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 768px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:767px) {
+	.tag-share {
+		justify-content: flex-start;
+		margin-top: 20px;
+	}
+
+	.tags-share {
+		flex-direction: column;
+	}
+
+	.rating-inner ul li:last-child {
+		border: 0;
+	}
+
+	.foo-deati a {
+		padding-left: 0;
+	}
+
+	.foo-deati {
+		margin-top: 30px;
+	}
+
+	.post-content {
+		padding: 25px;
+	}
+
+	.rating-inner ul {
+		flex-direction: column;
+	}
+
+	.rating-inner li {
+		padding: 0;
+		border: 0;
+		padding: 15px 0 15px 0;
+		border-bottom: 1px solid #eee;
+	}
+
+	.services-rhs li {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 576px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:576px) {
+	.ban-lhs h1 {
+		font-size: 45px;
+		line-height: 54px;
+	}
+
+	.post-left img {
+		height: 400px;
+	}
+
+	.services-rhs {
+		margin-top: 30px;
+	}
+
+	.contact-following {
+		display: none;
+	}
+
+	.ban-lhs h1::before {
+		display: none;
+	}
+
+	.testimonial:before, .painting, .painting1, .tab::before, .tab::after {
+		display: none;
+	}
+
+	.comm-heading {
+		width: 100%;
+	}
+
+	.about-us {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.services {
+		padding-top: 80px;
+		padding-bottom: 150px;
+	}
+
+	.tab {
+		padding-top: 150px;
+		padding-bottom: 80px;
+	}
+
+	.content {
+		padding: 80px 0;
+	}
+
+	.our-team {
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+	.blog-post {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+
+	.testimonial {
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.testimonial:befor {
+	}
+
+	.footer {
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+
+	.inner-text h3 {
+		font-size: 40px;
+		line-height: 55px;
+	}
+
+	.inner-text span:after,
+    .abt-img:after {
+		display: none;
+	}
+
+	.post-right li {
+		flex-direction: column;
+	}
+
+	.post-content-1 {
+		padding: 20px 0 0 0;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.showcase li {
+		float: left;
+		margin: 0 16px 16px 0;
+	}
+
+	.showcase ul {
+		display: block;
+	}
+
+	.banner .ban-lhs .comm-btn {
+		flex-direction: column;
+	}
+
+	.comm-btn .bg-none {
+		margin-top: 25px;
+	}
+
+	.text-des:after {
+		display: none;
+	}
+
+	.abt-text i {
+		font-size: 23px;
+		text-align: left;
+	}
+}

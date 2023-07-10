@@ -1,0 +1,1028 @@
+/*-------------------------------------------------*/
+/* 1. MOBILE VIEW RESPONSIVE
+/*-------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 1200px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:1200px) {
+
+
+    .menu li {
+        padding: 0 16px;
+    }
+
+
+    .rhs-dis {
+        padding: 120px 0 0 100px;
+    }
+
+    .rhs-dis li {
+        margin: 0 0 30px 0;
+    }
+
+    .travel-exp-1 {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .pop-up2 {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .pop-up1 {
+        display: none;
+    }
+
+    .add-menu:after {
+        right: 0;
+        bottom: 0;
+    }
+
+
+    .abt-why-booking h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .abt-bookin h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .find-tour-inn h3 {
+        font-size: 20px;
+    }
+
+    .tour-packages-box li {
+        width: 50%;
+    }
+
+    .sub-left-img .around-img {
+        display: none;
+    }
+
+    .subscribe-off {
+        padding: 130px 30px 120px 30px;
+    }
+
+    .testimonals-inn .tesit-img {
+        right: 10%;
+    }
+
+    .top-events .carousel-control-next {
+        right: 0;
+        opacity: 1;
+    }
+
+    .top-events .carousel-control-prev {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 1050px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width:1050px) {
+
+    .lhs-bg-1 {
+        padding-left: 20px;
+    }
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 992px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 992px) {
+    
+    .features-foter a{font-size: 13px;}
+    
+    .deatiles-footer a{font-size: 14px;}
+    
+
+    .fearure-1 {
+        width: 60%;
+        padding: 0;
+    }
+
+    .abt-why-booking,
+    .abt-booking-img {
+        opacity: 1;
+        transform: scale(1)scaleX(1);
+    }
+
+    .agency-img img {
+        padding-right: 0;
+    }
+
+    .client-info p {
+        padding: 0 5% 0 5%;
+    }
+
+    .testimonals-inn .tesit-img {
+        right: 0;
+        bottom: 0;
+    }
+
+    .testimonals-inn .tesit-icon {
+        left: 0;
+        bottom: 0;
+    }
+
+    .testimonals .carousel-control-prev {
+        left: 0;
+        bottom: 45%;
+    }
+
+    .testimonals .carousel-control-next {
+        right: 0;
+        bottom: 45%;
+    }
+
+    .testimonals-inn:after,
+    .testimonals-inn:before {
+        display: none;
+    }
+
+    .menu-head .menu a.act {
+        color: #055dfd;
+    }
+
+    .menu-book {
+        display: block;
+        position: absolute;
+        left: 10px;
+        padding: 8px 0;
+        z-index: 20;
+        top: 7px;
+    }
+
+    .menu-book i {
+        color: #fff;
+        background: #2250fc;
+        padding: 5px 7px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 3px;
+        font-weight: 200;
+        float: left;
+    }
+
+    .menu {
+        float: left;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        top: 48px;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        padding: 0px 30px 50px 30px;
+        z-index: 20;
+        width: 300px;
+        left: -500px;
+        transition: all 0.9s ease;
+        border-radius: 0px;
+        box-shadow: -14px 7px 21px -14px #33333336;
+    }
+
+    .menu li {
+        width: 100%;
+        margin: 8px 0;
+        padding: 0px 0 8px 0px;
+        position: relative;
+        border-bottom: 1px solid #d8d8d8;
+        transition: all 0.4s ease;
+    }
+
+    .menu a {
+        width: 100%;
+        float: left;
+        text-align: left;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: capitalize;
+        font-size: 15px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .menu a:after {
+        font-family: "FontAwesome";
+        content: "\f105";
+        display: inline-block;
+        padding-right: 3px;
+        vertical-align: middle;
+        font-weight: 900;
+        right: 15px;
+        position: absolute;
+        top: 7px;
+    }
+
+    .menuact {
+        left: 0;
+        z-index: 99;
+    }
+
+    .menu-head.fix-menu .menu ul a:hover a:before,
+    .menu-head.fix-menu .menu a.act:before {}
+
+    .menu ul li:first-child {
+        display: block;
+    }
+
+
+    .menu-head {
+        background: #fff;
+        transition: all 1s ease;
+        box-shadow: 0px 0px 25px rgb(0 0 0 / 29%);
+        padding: 18px 0 18px 0;
+    }
+
+    .menu-head.fix-menu {
+        padding: 18px 0 18px 0;
+    }
+
+    .logo img {
+        width: 100px;
+        transition: all 1s ease;
+        left: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-top3 {
+        position: absolute;
+        right: 15px;
+    }
+
+    .most-packages {
+        margin-bottom: 30px;
+    }
+
+
+    .lhs-bg-1 {
+        width: 52%;
+        padding: 80px 0;
+    }
+
+    .deatiles-footer {
+        width: 40%;
+    }
+
+
+    .menu ul li.act {
+        background: linear-gradient(to right, #2c05fd0f, #ffffffed);
+        border-left: 2px solid #2250fc;
+        position: relative;
+        border-bottom: 0;
+        padding-left: 8px;
+    }
+
+
+    .menu-head .container {
+        max-width: 100%;
+    }
+
+    .menu span {
+        display: block;
+        position: absolute;
+        top: 14px;
+        right: 10px;
+    }
+
+
+
+
+    .menu a:hover {
+        color: #2250fc;
+    }
+
+
+
+    .menu-head.fix-menu .menu ul a:hover:before {
+        clip-path: circle(0);
+        background: none;
+        top: 10px;
+        display: none;
+    }
+
+    .rhs-dis {
+        width: 48%;
+        padding-left: 50px;
+    }
+
+    .lhs-bg-1 h2 {
+        font-size: 36px;
+    }
+
+    .add-gallerys .width-img {
+        width: 50%;
+    }
+
+
+
+    .menu ul li .pg-arrow:after {
+        transform: rotate(0deg);
+        right: 15px;
+    }
+
+    .menu a:before,
+    .menu-head.fix-menu .menu a:before,
+    .menu-head .menu a.act:before {
+        width: 102%;
+        height: 1px;
+        bottom: -9px;
+        z-index: 2;
+    }
+
+
+    .menu ul li:last-child {
+        border: 0;
+    }
+
+    .add-testi1 {
+        padding: 80px 0;
+    }
+
+
+    .search .submit-btn[type="submit"] {
+        width: 20%;
+    }
+
+    .plan-travel:after {
+        left: 20px;
+        z-index: -1;
+    }
+
+
+    .top-click-1 {
+        display: none;
+    }
+
+    .top-click-1 h3 {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .top-cl-fun input {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .top-cl-fun span {
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .cl-func span {
+        margin-right: 5px;
+    }
+
+    .click-sid-bar i {
+        margin-right: 0;
+    }
+
+    .sub-off-content {
+        padding: 0;
+    }
+
+    .sub-left-img,
+    .sub-off-content {
+        width: 100%;
+    }
+
+
+    .sub2-img img {
+        position: relative;
+        top: -118px;
+        float: right;
+    }
+
+    .sub-left-img:before {
+        display: none;
+    }
+
+    .sub2-img {
+        left: -40px;
+    }
+
+
+    .add-menu:after {
+        right: 18px;
+        bottom: 15px;
+    }
+
+    .menu ul {
+        box-shadow: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .travel-agency {
+        padding: 80px 0 80px 0;
+    }
+
+    .agency-content {
+        margin-top: 100px;
+    }
+
+    .success-tr-tour {
+        left: 0;
+        padding: 20px;
+    }
+
+    .abt-why-booking {
+        width: 100%;
+    }
+
+    .abt-booking-img {
+        width: 100%;
+        position: relative;
+    }
+
+
+    .why-booking:before {
+        width: 100%;
+        opacity: .4;
+    }
+
+    .destin-slider {
+        width: 50%;
+    }
+
+    .destination .carousel-control-prev,
+    .destination .carousel-control-next {
+        top: 46%;
+        opacity: 1;
+    }
+
+    .destination {
+        padding: 80px 0 0 0;
+    }
+
+    .country-tr-img {
+        padding: 0 20px 40px 20px;
+    }
+
+    .country-travel {
+        padding: 80px 0 40px 0;
+    }
+
+    .country-tr-img .name-price i {
+        bottom: 25px;
+    }
+
+    .find-tour-typ li {
+        width: 33.333%;
+        padding: 15px 0 15px 0;
+    }
+
+    .tour-packages {
+        padding: 80px 0 0 0;
+    }
+
+    .tour-packages-box li {
+        padding: 0 25px 45px 25px;
+    }
+
+    .event-img,
+    .event-deat {
+        width: 100%;
+    }
+
+    .event-deat {
+        margin: 30px 0 45px 0;
+    }
+
+    .travel-events:before {
+        display: none;
+    }
+
+    .ma-top {
+        margin-top: 0;
+    }
+
+    .sub-left-img {
+        margin-top: 40px;
+    }
+
+    .subscribe-off {
+        padding: 80px 0 0 0;
+    }
+
+    .testimonals {
+        padding: 80px 0 20px 0;
+    }
+
+    .add-gallerys .width-img.ani-strt {
+        width: 50%;
+    }
+
+    .img-wrapper {
+        margin: 0;
+    }
+
+    .travel-experts {
+        padding: 80px 0 50px 0;
+    }
+
+    .testimonals-inn .tesit-icon,
+    .testimonals-inn .tesit-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 768px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:768px) {
+    
+       .features-foter h2{padding-bottom: 0;margin-bottom: -4px;}
+
+    .home-banner .ban-content span {
+        margin: 0;
+    }
+
+    .home-banner .ban-content h1 {
+        font-size: 30px;
+    }
+
+    .search-box {
+        background: #f6f8fb;
+    }
+
+    .search-bookin {
+        position: relative;
+        border-radius: 3px;
+        margin-top: -100px;
+    }
+
+    .agency-content h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .tour-packages-box li {
+        width: 100%;
+    }
+
+    .search-bookin li {
+        width: 100%;
+        border-bottom: 1px solid #dbcfcf;
+    }
+
+    .tour-packages-details:before {
+        top: -10px;
+        left: -10px;
+    }
+
+    .tour-packages-box ul li:nth-child(4) .tour-packages-details:before,
+    .tour-packages-box ul li:nth-child(5) .tour-packages-details:before,
+    .tour-packages-box ul li:nth-child(6) .tour-packages-details:before {
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .lhs-bg-1 {
+        width: 100%;
+        text-align: center;
+        padding: 70px 0 0 0px;
+    }
+
+
+
+    .deatiles-footer,
+    .fearure-1 {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .fearure-1 {
+        margin-top: 15px;
+    }
+
+    .fearure-1 li {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .travel-experts {
+        padding: 80px 0 30px 0;
+    }
+
+    .tit {
+        padding-bottom: 30px;
+        z-index: 1;
+    }
+
+
+    .holiday-off .container {
+        max-width: 100%;
+    }
+
+    .holiday-off1,
+    .holiday-off1:before {
+        height: auto;
+    }
+
+    .pop-up2 {
+        padding: 35px 20px;
+    }
+
+    .pop-up2 h2 {
+        font-size: 24px;
+    }
+
+    .pop-up2 p {
+        font-size: 14px;
+    }
+
+
+    .rhs-dis li {
+        width: 100%;
+    }
+
+    .rhs-dis {
+        width: auto;
+        margin: 0 auto;
+        display: table;
+        padding: 40px 20px 60px 20px;
+    }
+
+
+    .abt-all-worke:after {
+        display: none;
+    }
+
+
+    .add-gallerys .width-img {
+        width: 100%;
+    }
+
+    .blg-inn-auther {
+        text-align: center;
+        padding: 35px;
+    }
+
+
+    .comm-p-t-b {
+        padding: 60px 0;
+    }
+
+    .success-tr-tour li {
+        margin: 0 0 12px 0;
+        width: 50%;
+    }
+
+    .success-tr-tour .number {
+        font-size: 20px;
+    }
+
+    .success-tr-tour ul li:nth-child(2) {
+        border: 0;
+    }
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 670px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:670px) {
+
+
+    .find-tour-typ li {
+        width: 50%;
+    }
+
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 576px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:576px) {
+
+    .deatiles-footer,
+    .fearure-1 {
+        padding-left: 30px;
+    }
+
+    .travel-icon ul li:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .lhs-bg-1 a {
+        padding: 10px 30px;
+        margin-right: 0;
+    }
+
+    .lhs-bg-1 {
+        padding: 70px 15px 0 15px;
+    }
+
+    .search {
+        padding: 0 15px;
+    }
+
+    .sub2-img {
+        left: 0;
+    }
+
+    .subscribe-off {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .ask-experts {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-banner {
+        padding: 270px 20px 200px 20px;
+    }
+
+    .search-box {
+        padding: 0 20px;
+    }
+
+    .travel-agency,
+    .why-booking,
+    .testimonals {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .destin-slider {
+        width: 100%;
+        padding: 1px;
+    }
+
+    .destination .carousel-control-prev,
+    .destination .carousel-control-next {
+        top: 48%;
+    }
+
+
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 520px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:520px) {
+
+    .testimonals h2 {
+        font-size: 28px;
+    }
+
+    .cpy-right p {
+        padding: 30px 15px;
+    }
+
+
+    .sub2-img img {
+        float: unset;
+        margin: 0 auto;
+        display: table;
+        top: -50px;
+    }
+
+    .sub2-img {
+        width: auto;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .sub2-img:before {
+        top: -35px;
+    }
+
+    .sub1-img img,
+    .sub1-img:before {
+        width: 100%;
+    }
+
+    .features-1 h6 {
+        margin-right: 25px;
+    }
+
+    .abt-bookin h3 {
+        line-height: 26px;
+        margin-top: 15px;
+    }
+
+    .abt-bookin {
+        display: block;
+        text-align: center;
+        padding: 20px 15px 20px 15px;
+    }
+
+    .abt-bookin i {
+        margin: 0 auto;
+        display: table;
+        float: unset;
+    }
+
+    .abt-why-booking h2 {
+        text-align: center;
+    }
+
+    .abt-why-booking a {
+        float: unset;
+        margin: 0 auto;
+        display: table;
+        position: relative;
+        top: 25px;
+    }
+
+    .home-banner .ban-content span,
+    .home-banner .ban-content h1.ban2-ani {
+        font-size: 20px;
+    }
+
+    .home-banner .ban-content h1:before {
+        height: 130px;
+    }
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 480px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:480px) {
+
+    .client-info p,
+    .testimonals p {
+        font-size: 14px;
+    }
+
+    .add-gallerys .width-img.ani-strt {
+        width: 100%;
+    }
+
+    .event-date li {
+        width: 50%;
+        padding: 16px 0;
+    }
+
+    .pop-up2 ul li:nth-child(2),
+    .pop-up2 ul li:nth-child(3),
+    .pop-up2 ul li:nth-child(4),
+    .pop-up2 ul li:nth-child(5) {
+        width: 100%;
+    }
+
+    .package-gallery.realted-photo {
+        display: none;
+    }
+
+    .package-gallery {
+        width: 100%;
+    }
+
+
+    .side-bar {
+        width: 100%;
+    }
+
+
+    .pack-det-icon i {
+        float: unset;
+    }
+
+
+    .abt-why-booking h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .find-tour-typ li {
+        width: 100%;
+    }
+
+    .abt-booking-img {
+        right: 0;
+    }
+
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 420px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:420px) {
+
+
+    .abt-booking-img:before,
+    .abt-booking-img:after {
+        right: -80px;
+    }
+
+    .tit h2 {
+        font-size: 40px;
+        padding: 0 10px 45px 10px;
+    }
+
+    .tit p {
+        margin-bottom: 10px;
+    }
+
+    .lhs-bg-1 p {
+        font-size: 13px;
+    }
+
+
+    .lhs-bg-1 h2 {
+        line-height: 42px;
+    }
+
+
+    .sub2-img:before {
+        width: 250px;
+    }
+
+    .sub2-img img {
+        width: 250px;
+    }
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 372px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:372px) {
+
+    .lhs-bg-1 h2 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+
+
+    .search .bann-search {
+        padding: 19px 40px 15px 40px
+    }
+
+    .search i {
+        left: 10px;
+        font-size: 20px;
+        padding-right: 12px;
+    }
+
+
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 364px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width:364px) {
+
+
+
+    .side-bar-content h4,
+    .side-bar-content span {
+        width: 100%;
+    }
+
+    .tour-price {
+        margin: -24px 0 0 0;
+    }
+
+    .tour-price i {
+        font-size: 15px;
+    }
+
+    .tour-price span {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .success-tr-tour .number {
+        font-size: 18px;
+    }
+
+    .success-tr-tour span {
+        font-size: 11px;
+    }
+
+    .find-tour-typ h2 {
+        font-size: 14px;
+    }
+}

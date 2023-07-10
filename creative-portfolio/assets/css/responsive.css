@@ -1,0 +1,254 @@
+/*-------------------------------------------------------*/
+/* When the browser is 992px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+	.pricing-plan-iner {
+	  padding: 20px;
+	}
+	.con-det {
+	  padding-right: 0;
+	}
+  
+	.contact-us {
+	  padding-top: 80px;
+	}
+	.contact-det {
+	  padding-top: 50px;
+	}
+	.contact-map {
+	  margin-top: 45px;
+	}
+	.contact-det ul {
+	  flex-direction: column;
+	}
+	.contact-det li {
+	  width: 100%;
+	  margin-bottom: 31px;
+	}
+  
+	.offer {
+	  padding-bottom: 60px;
+	}
+	.pricing-plan {
+	  padding-top: 50px;
+	}
+	.pricing-plan-iner {
+	  margin-bottom: 30px;
+	}
+	.team-mates {
+	  padding-top: 50px;
+	}
+	.team-img {
+	  width: 100%;
+	  text-align: center;
+	}
+	.contact-info-lhs {
+	  padding-top: 120px;
+	}
+  
+	.cpy {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin: 10px 0;
+	}
+  
+	.foo-deati {
+	  margin-top: 30px;
+	}
+  
+	.footer {
+	  padding: 80px 0 50px 0;
+	  margin-top: -29px;
+	}
+  
+	.testimonial {
+	  padding-top: 50px;
+	  padding-bottom: 80px;
+	}
+  
+	.contact-info {
+	  padding-top: 80px;
+	}
+  
+	.brand {
+	  padding-bottom: 80px;
+	}
+  
+	.banner-img {
+	  margin: 60px 0 0 0;
+	}
+  
+	.banner {
+	  padding-bottom: 60px;
+	}
+  
+	.top-cl-fun {
+	  padding: 0 25px;
+	}
+  
+	.top-cl-fun {
+	  padding: 0 25px;
+	}
+  
+	.side-bar.act {
+	  width: 100%;
+	}
+  
+	.nav .row {
+	  align-items: center;
+	}
+  
+	.nav {
+	  background: #fff;
+	  padding: 35px 0;
+	}
+  
+	.side-bar-right i {
+	  width: 35px;
+	  height: 35px;
+	  font-size: 15px;
+	}
+  
+	.logo img {
+	  max-width: 128px;
+	}
+  
+	.nav-inner .menu {
+	  position: fixed;
+	  left: -500px;
+	  top: 0;
+	  overflow-y: auto;
+	  height: 100vh;
+	  width: 300px;
+	  background: #16243d;
+	  padding: 31px 20px 20px 20px;
+	  z-index: 99;
+	  transition: all 0.5s ease;
+	}
+  
+	.menu ul li:first-child {
+	  display: block;
+	}
+  
+	.menu li {
+	  width: 100%;
+	  padding-bottom: 13px;
+	}
+  
+	.menu a {
+	  color: #fff;
+	  width: 100%;
+	  border-bottom: 1px solid #908484;
+	  padding-bottom: 17px;
+	}
+  
+	.menu img {
+	  width: 120px;
+	  filter: invert(1);
+	  margin-bottom: 24px;
+	}
+  
+	.menu ul li:last-child {
+	  border: 0;
+	}
+  
+	.nav-inner .side-bar-right {
+	  position: absolute;
+	  right: 15px;
+	}
+  
+	.logo {
+	  position: absolute;
+	  transform: scale(0.8);
+	}
+  
+	.menu-bar {
+	  display: block;
+	  position: absolute;
+	  left: 15px;
+	}
+  
+	.menu ul {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  
+	.menu span {
+	  position: absolute;
+	  right: 20px;
+	  top: 0;
+	  background: red;
+	  color: #fff;
+	  width: 30px;
+	  height: 30px;
+	  border-radius: 50px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 17px;
+	  cursor: pointer;
+	}
+  
+	.menu.menuact {
+	  left: 0;
+	}
+  }
+  
+  /*-------------------------------------------------------*/
+  /* When the browser is 767px to all small screens,below css will be applied.
+  /*-------------------------------------------------------*/
+  @media screen and (max-width: 767px) {
+	.offer-main {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	.commen-heading a {
+	  padding: 5px 10px;
+	  font-size: 13px;
+	}
+  }
+  
+  /*-------------------------------------------------------*/
+  /* When the browser is 576px to all small screens,below css will be applied.
+  /*-------------------------------------------------------*/
+  @media screen and (max-width: 576px) {
+	.project .commen-heading {
+	  text-align: center;
+	}
+	.commen-heading a {
+	  position: relative;
+	  top: 0;
+	  margin: 16px 0 0 25px;
+	  display: inline-block;
+	}
+	.container {
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+	.following {
+	  display: none;
+	}
+  }
+  
+  /*-------------------------------------------------------*/
+  /* When the browser is 480px to all small screens,below css will be applied.
+  /*-------------------------------------------------------*/
+  @media screen and (max-width: 480px) {
+	.banner-content h1 {
+	  font-size: 46px;
+	  line-height: 58px;
+	  padding-top: 10px;
+	}
+  
+	.them-btn {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  
+	.banner-content img {
+	  margin: 23px 0 0 10px;
+	}
+  }
+  

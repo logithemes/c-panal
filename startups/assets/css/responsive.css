@@ -1,0 +1,262 @@
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 992px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 992px) {
+	.contact-info-lhs {
+		padding-top: 120px;
+	}
+
+	.cpy {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 10px 0;
+	}
+
+	.foo-deati {
+		margin-top: 30px;
+	}
+
+	.footer {
+		padding: 80px 0 50px 0;
+	}
+
+	.contact-info-lhs ul {
+		flex-direction: column;
+	}
+
+	.contact-info-lhs li {
+		margin-bottom: 30px;
+		margin-left: 0;
+	}
+
+	.contact-map {
+		margin-top: 50px;
+		padding-left: 0;
+	}
+
+	.testimonial {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
+
+	.contact-info {
+		padding-top: 80px;
+	}
+
+	.why-right-img {
+		margin-top: 40px;
+	}
+
+	.why-choose-list li {
+		margin-bottom: 30px;
+	}
+
+	.services {
+		padding-bottom: 60px;
+	}
+
+	.services .commen-heading {
+		padding: 80px 0 0 0;
+	}
+
+	.brand {
+		padding-bottom: 80px;
+	}
+
+	.banner-img {
+		margin: 60px 0 0 0;
+	}
+
+	.abt-student-img img {
+		position: relative;
+	}
+
+	.abt-student-img .student-img2 {
+		display: none;
+	}
+
+	.abt-student-img .student-img {
+		width: 100%;
+		left: 0;
+		top: 0;
+		margin-top: 50px;
+	}
+
+	.abt-student-img .student-img1 {
+		width: 100%;
+		top: 20px;
+	}
+
+	.banner {
+		padding-bottom: 60px;
+	}
+
+	.about-content {
+		width: 100%;
+		padding: 0;
+	}
+
+	.abt-student-img {
+		width: 100%;
+	}
+
+	.top-cl-fun {
+		padding: 0 25px;
+	}
+
+	.top-cl-fun {
+		padding: 0 25px;
+	}
+
+	.side-bar.act {
+		width: 100%;
+	}
+
+	.nav .row {
+		align-items: center;
+	}
+
+	.nav {
+		background: #fff;
+		padding: 35px 0;
+	}
+
+	.side-bar-right i {
+		width: 35px;
+		height: 35px;
+		font-size: 15px;
+	}
+
+	.logo img {
+		max-width: 128px;
+	}
+
+	.nav-inner .menu {
+		position: fixed;
+		left: -500px;
+		top: 0;
+		overflow-y: auto;
+		height: 100vh;
+		width: 300px;
+		background: #16243d;
+		padding: 31px 20px 20px 20px;
+		z-index: 99;
+		transition: all 0.5s ease;
+	}
+
+	.menu ul li:first-child {
+		display: block;
+	}
+
+	.menu li {
+		width: 100%;
+		padding-bottom: 13px;
+	}
+
+	.menu a {
+		color: #fff;
+		width: 100%;
+		border-bottom: 1px solid #908484;
+		padding-bottom: 17px;
+	}
+
+	.menu img {
+		width: 120px;
+		filter: invert(1);
+		margin-bottom: 24px;
+	}
+
+	.menu ul li:last-child {
+		border: 0;
+	}
+
+	.nav-inner .side-bar-right {
+		position: absolute;
+		right: 15px;
+	}
+
+	.logo {
+		position: absolute;
+		transform: scale(0.8);
+	}
+
+	.menu-bar {
+		display: block;
+		position: absolute;
+		left: 15px;
+	}
+
+	.menu ul {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.menu span {
+		position: absolute;
+		right: 20px;
+		top: 0;
+		background: red;
+		color: #fff;
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 17px;
+		cursor: pointer;
+	}
+
+	.menu.menuact {
+		left: 0;
+	}
+
+	.about-us {
+		padding: 0 15px;
+	}
+}
+
+
+
+/*-------------------------------------------------------*/
+/* When the browser is 576px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 576px) {
+	.following {
+		display: none;
+	}
+}
+
+/*-------------------------------------------------------*/
+/* When the browser is 480px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+	.contact-input li {
+		width: 100% !important;
+	}
+
+	.contact-input ul li:nth-child(1) {
+		padding-right: 0;
+	}
+
+	.them-btn {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.banner-content img {
+		margin: 23px 0 0 10px;
+	}
+
+	.abt-benefits li {
+		width: 100%;
+	}
+
+	.abt-student .strdent-sign {
+		display: none;
+	}
+}

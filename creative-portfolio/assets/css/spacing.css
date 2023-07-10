@@ -1,0 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Pacifico&display=swap');
+
+
+/*-------------------------------------------------*/
+/* margin
+/*-t------------------------------------------------*/
+.mt_10{margin-top: 10px;}
+.mt_15{margin-top: 15px;}
+.mt_20{margin-top: 20px;}
+.mt_25{margin-top: 25px;}
+.mt_30{margin-top: 30px;}
+.mt_35{margin-top: 35px;}
+.mt_40{margin-top: 40px;}
+.mt_45{margin-top: 45px;}
+.mt_50{margin-top: 50px;}
+.mt_55{margin-top: 55px;}
+.mt_60{margin-top: 60px;}
+
+.mb_10{margin-top: 10px;}
+.mb_15{margin-bottom: 15px;}
+.mb_20{margin-bottom: 20px;}
+.mb_25{margin-bottom: 25px;}
+.mb_30{margin-bottom: 30px;}
+.mb_35{margin-bottom: 35px;}
+.mb_40{margin-bottom: 40px;}
+.mb_45{margin-bottom: 45px;}
+.mb_50{margin-bottom: 50px;}
+.mb_55{margin-bottom: 55px;}
+.mb_60{margin-bottom: 60px;}
+
+
+/*-------------------------------------------------*/
+/* padding
+/*-------------------------------------------------*/
+
+.pt_150{padding-top: 150px;}
+.pt_120{padding-top: 120px;}
+.pt_100{padding-top: 100px;}
+.pt_80{padding-top: 80px;}
+.pt_60{padding-top: 60px;}
+
+.pb_150{padding-bottom: 150px;}
+.pb_120{padding-bottom: 120px;}
+.pb_100{padding-bottom: 100px;}
+.pb_80{padding-bottom: 80px;}
+.pb_60{padding-bottom: 60px;}
+
+
+
+
+

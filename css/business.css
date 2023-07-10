@@ -1,0 +1,1475 @@
+/*----------------------------------------- [MASTER STYLE SHEET] * Project: Landing Page HTML5 Template * Version: v1.1.1 * Copyright 2018-2020 Sends * Last Changes: 21/08/2018 * Author: RN53 Themes -----------------------------------------------*/
+/*--------------------------------------------- [TABLE OF CONTENT] 1. COMMON STYLES 2. PRE LOADING 3. CONTAINER SIZE 4. TOP SECTION 5. BANNER SECTION 6. BOOKING FORM 7. PACKAGES 8. CUSTOMER TESTIMONIALS 9. FOOTER 10. TRAVEL PLAN 11. MOBILE FRIENDLY STYLES(RESPONSIVE STYLES) ------------------------------------------------*/
+/*-------------------------------------------------*/
+/* = COMMON STYLES 
+/*-------------------------------------------------*/
+ body{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     font-size: 14px;
+     background: #fff;
+     color: #1a2a38;
+}
+ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+     display: block;
+     position: relative;
+}
+ audio, canvas, progress, video {
+     display: inline-block;
+     vertical-align: baseline;
+}
+ audio:not([controls]) {
+     display: none;
+     height: 0;
+}
+ [hidden], template {
+     display: none;
+}
+ a {
+     text-decoration: none;
+}
+ a:active, a:hover {
+     outline: 0;
+}
+ abbr[title] {
+     border-bottom: 1px dotted;
+}
+ b, strong {
+     font-weight: bold;
+}
+ li{
+     list-style-type:none;
+}
+ ul{
+     padding:0px;
+     margin: 0px;
+}
+ h1, h2, h3, h4, h5, h6 {
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+ a {
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+}
+ a:hover {
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+}
+ div{
+     box-sizing: border-box;
+}
+ :before{
+     font-family: "Material Icons";
+     position: absolute;
+}
+ :after{
+     font-family: "Material Icons";
+     position: absolute;
+}
+/* fallback */
+ @font-face {
+     font-family: 'Material Icons';
+     font-style: normal;
+     font-weight: 400;
+     src: url(icon.woff2) format('woff2');
+}
+ input, textarea, select{
+     outline:none;
+     font-family: 'Poppins', sans-serif;
+}
+/* width */
+ ::-webkit-scrollbar {
+     width: 5px;
+}
+/* Track */
+ ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+     background: #888;
+}
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+/* Placeholder text color */
+ ::placeholder {
+     color: #1a2a38;
+     opacity: 1;
+    /* Firefox */
+}
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+     color: #1a2a38;
+}
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+     color: #1a2a38;
+}
+/*-------------------------------------------------*/
+/* PRE LOADING 
+/*-------------------------------------------------*/
+ #preloader {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #fff;
+    /* change if the mask should have another color then white */
+     z-index: 99999;
+    /* makes sure it stays on top */
+}
+ #status {
+     position: absolute;
+     left: 46%;
+    /* centers the loading animation horizontally one the screen */
+     top: 40%;
+     border: 5px solid #f3f3f3;
+     border-radius: 50%;
+     border-top: 5px solid #76cef1;
+     width: 100px;
+     height: 100px;
+     -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+     animation: spin 2s linear infinite;
+}
+/* Safari */
+ @-webkit-keyframes spin {
+     0% {
+         -webkit-transform: rotate(0deg);
+    }
+     100% {
+         -webkit-transform: rotate(360deg);
+    }
+}
+ @keyframes spin {
+     0% {
+         transform: rotate(0deg);
+    }
+     100% {
+         transform: rotate(360deg);
+    }
+}
+/*-------------------------------------------------*/
+/* = CONTAINER SIZE 
+/*-------------------------------------------------*/
+ .land-full{
+     width: 100%;
+     position: relative;
+     display: inline-block;
+}
+ .land-container{
+     width: 1000px;
+     margin: 0 auto;
+     position: relative;
+}
+ .la-container-75{
+     width: 950px;
+}
+ .col1{
+     width:10%;
+     float:left;
+     padding:15px;
+}
+ .col15{
+     width:15%;
+     float:left;
+     padding:15px;
+}
+ .col2{
+     width:20%;
+     float:left;
+     padding:15px;
+}
+ .col25{
+     width:25%;
+     float:left;
+     padding:15px;
+}
+ .col3{
+     width:30%;
+     float:left;
+     padding:15px;
+}
+ .col35{
+     width:35%;
+     float:left;
+     padding:15px;
+}
+ .col4{
+     width:40%;
+     float:left;
+     padding:15px;
+}
+ .col45{
+     width:45%;
+     float:left;
+     padding:15px;
+}
+ .col5{
+     width:50%;
+     float:left;
+     padding:15px;
+}
+ .col55{
+     width:55%;
+     float:left;
+     padding:15px;
+}
+ .col6{
+     width:60%;
+     float:left;
+     padding:15px;
+}
+ .col65{
+     width:65%;
+     float:left;
+     padding:15px;
+}
+ .col7{
+     width:70%;
+     float:left;
+     padding:15px;
+}
+ .col75{
+     width:75%;
+     float:left;
+     padding:15px;
+}
+ .col8{
+     width:80%;
+     float:left;
+     padding:15px;
+}
+ .col85{
+     width:85%;
+     float:left;
+     padding:15px;
+}
+ .col9{
+     width:90%;
+     float:left;
+     padding:15px;
+}
+ .col95{
+     width:95%;
+     float:left;
+     padding:15px;
+}
+/*-------------------------------------------------*/
+/* = TOP SECTION 
+/*-------------------------------------------------*/
+ .header{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding: 20px 0px 5px 0px;
+    background: #1d2531;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    box-shadow: 0 23px 28px -27px rgba(0, 0, 0, 0.43);
+}
+ .header1{
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+    top: -100px;
+}
+ .header2{
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     top: 0px;
+     z-index: 9;
+     padding-top: 16px;
+     position: fixed;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: #293952;
+     background: -webkit-linear-gradient(to top,#1d2531,#293952);
+     background: linear-gradient(to top,#1d2531,#293952);
+     box-shadow: 0px 5px 29px 4px rgba(56, 56, 56, 0.64);
+}
+ .land-3{
+}
+ .land-3-top-full{
+     background: #ffffff;
+     position: fixed;
+     display: inline-block;
+     width: 100%;
+     height: 55px;
+     padding: 10px 0px;
+     top: 0px;
+     z-index: 9;
+     box-shadow: 0 3px 35px 0.6px rgba(40, 30, 20, 0.29);
+    /* background: linear-gradient(to top, #262e3e, #999ca3);
+     */
+}
+ .land-3-top{
+     position: relative;
+     width: 100%;
+     display: inline-block;
+    /* margin-bottom: 25px;
+     */
+     z-index: 2;
+}
+ .land-3-top-logo{
+     float: left;
+     width: 40%;
+}
+ .land-3-top-logo a{
+}
+ .land-3-top-logo a img{
+     margin-top: 2px;
+     width: 170px;
+     height: 32px;
+     -webkit-object-fit: cover;
+     -moz-object-fit: cover;
+     -o-object-fit: cover;
+     -ms-object-fit: cover;
+     object-fit: cover;
+}
+ .land-3-top-contact{
+     float: left;
+     width: 60%;
+}
+ .land-3-top-contact ul{
+     float: right;
+     padding-top: 7px;
+}
+ .land-3-top-contact ul li{
+     color: #ffffff;
+     float: left;
+     margin-left: 35px;
+     font-weight: 500;
+}
+ .land-3-top-contact ul li a{
+     color: #ffffff;
+     cursor: pointer;
+     font-weight: 500;
+}
+ .land-3-top-contact ul li:last-child a{
+     background: #12bd19;
+     color: #fff;
+     padding: 10px 30px 10px 30px;
+     border-radius: 2px;
+}
+ .land-3-banner-full{
+     position: relative;
+     background: url(../images/business/banner.jpg) no-repeat;
+     background-size: cover;
+     padding: 110px 0px 0px 0px;
+     /* margin-top: 55px; */
+     /* overflow: hidden; */
+}
+ .land-3-banner-full:before {
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: #14202aa8;
+     top: 0px;
+     left: 0px;
+     /* bottom: 0px; */
+}
+ .land-3-banner-full:after{
+     /* content: ''; */
+     /* position: absolute; */
+     /* background: url(../images/product-bg.png) no-repeat; */
+     top: 0px;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     background-size: cover;
+     opacity: 0.1;
+}
+ @keyframes animatedBackground {
+     from {
+         background-position: 0 0;
+    }
+     to {
+         background-position: 100% 0;
+    }
+}
+/*-------------------------------------------------*/
+/* = BANNER SECTION 
+/*-------------------------------------------------*/
+ .land-3-banner{
+     /* z-index: 5; */
+     position: relative;
+     float: left;
+     width: 100%;
+}
+ .land-3-banner-conte{
+     float: left;
+     width: 100%;
+     color: #ffffff;
+     padding: 70px 0px 150px 350px;
+}
+.land-3-banner-conte:before{
+    content: '';
+    position: absolute;
+    background: url('../images/business/book.png') no-repeat;
+    width: 275px;
+    height: 390px;
+    margin-left: -350px;
+    background-size: contain;
+    margin-top: -20px;
+}
+ .land-3-banner-conte h1{
+     font-size: 60px;
+     line-height: 60px;
+     padding-bottom: 14px;
+     color: #fff;
+}
+ .land-3-banner-conte h1 span{
+    /* font-size: 45px;
+     */
+    /* line-height: 45px;
+     */
+    /* padding-bottom: 6px;
+     */
+     font-weight: 100;
+     display: block;
+     color: #e1e5e9;
+}
+ .tit1{
+     font-size: 32px;
+     line-height: 32px;
+}
+ .tit2{
+     font-size: 24px;
+     line-height: 24px;
+     margin-top: 7px;
+}
+ .land-3-banner-conte h4{
+     font-size: 20px;
+     font-weight: 300;
+}
+ .land-3-banner-conte p{
+     color: #f3f3f3;
+    /* border-bottom: 1px solid #737fc5;
+     */
+     padding-bottom: 0px;
+     margin-bottom: 30px;
+     font-weight: 300;
+}
+ .land-3-banner-conte a{
+     border: 0px solid #ffffff;
+     border-radius: 50px;
+     padding: 10px 50px;
+     color: #fff;
+     font-size: 16px;
+     background: #12bd19;
+     font-weight: 400;
+}
+ .demo-form{
+     width: 75%;
+     background: #fcfdff;
+     position: relative;
+     display: inline-block;
+     padding: 15px;
+     border-radius: 3px;
+     box-shadow: 0px 3px 8px -2px rgba(21, 29, 37, 0.31);
+}
+ .demo-form ul{
+}
+ .demo-form li{
+     float: left;
+     width: 40%;
+}
+ .demo-form li input{
+     width: 100%;
+     height: 42px;
+     background: #f3f3f5;
+     border: 0px solid #123452;
+     padding: 5px 15px;
+     box-sizing: border-box;
+     color: #000;
+}
+ .demo-form li:nth-child(1){
+     width: 60%;
+}
+ .demo-form li:nth-child(2) input[type="submit"]{
+     font-weight: 600;
+     font-size: 16px;
+     color: #fff;
+     background: #17b365;
+    /* fallback for old browsers */
+     background: -webkit-linear-gradient(to bottom, #25ce7a, #17b365);
+    /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to bottom, #25ce7a, #17b365);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     text-shadow: 0px 0px 0px #414950;
+    /* z-index: 99;
+     */
+     cursor: pointer;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+}
+/*-------------------------------------------------*/
+/* = BOOKING FORM 
+/*-------------------------------------------------*/
+ .land-3-banner-form{
+     float: left;
+     /* width: 40%; */
+     /* padding-left: 20px; */
+     /* margin-top: 200px; */
+}
+ .land-com-form{
+     padding: 30px 90px;
+     width: 100%;
+     margin: 0 auto;
+}
+ .land-com-form h2{
+     font-size: 22px;
+     text-align: center;
+     margin-bottom: 18px;
+     color: #273c56;
+    /* background: #273c56;
+     */
+    /* padding: 10px;
+     */
+    /* border-radius: 10px 10px 0px 0px;
+     */
+}
+ .land-com-form form{
+    /* padding: 20px 50px 25px 50px;
+     */
+     width: 100%;
+     box-sizing: border-box;
+}
+ .land-com-form form ul{
+}
+ .land-com-form form ul li{
+     margin-bottom: 15px;
+     position: relative;
+     list-style-type: none;
+}
+ .land-com-form form ul li:before{
+     font-size: 18px;
+     margin-top: 14px;
+     margin-left: 12px;
+     color: #6a717f;
+     font-weight: 500;
+}
+ .land-com-form form ul li:nth-child(1):before{
+     content: "person";
+}
+ .land-com-form form ul li:nth-child(2):before{
+     content: "mail_outline";
+}
+ .land-com-form form ul li:nth-child(3):before{
+     content: "phone_iphone";
+}
+ .land-com-form form ul li:nth-child(4):before{
+}
+ .land-com-form form ul li:nth-child(5):before{
+}
+ .land-com-form form ul li input, select{
+     width: 100%;
+     display: block;
+     line-height: 29px;
+     font-size: 14px;
+     outline: none;
+     height: 45px;
+     background: #ffffff;
+     padding-left: 45px;
+     box-sizing: border-box;
+     border-radius: 3px;
+     color:#1a2a38;
+     border: 1px solid #e4e4e4;
+     background: #f5f5f5;
+}
+ .land-com-form form ul li input[type="submit"]{
+     background: #ed2121;
+     color: #fff;
+     height: 50px;
+     line-height: 50px;
+     font-weight: 600;
+     font-size: 16px;
+     text-align: center;
+     border-radius: 3px;
+     cursor: pointer;
+     padding-left: 0;
+     text-transform: capitalize;
+}
+ .land-com-form form ul li:nth-child(5):before{
+
+}
+ .land-com-form form ul li:nth-child(5):hover:before{
+
+}
+ .land-com-form form ul li p{
+     margin-bottom: 0px;
+     color: #6a6a6a;
+     font-size: 12px;
+     text-align: center;
+}
+ .land-com-form form ul li p a{
+     color: #6a6a6a;
+}
+ .land-com-form form ul li:last-child{
+     margin-bottom:0px;
+}
+ input:focus ~ .floating-label, input:not(:focus):valid ~ .floating-label{
+     left: 48px;
+     top: 0px;
+     font-size: 11px;
+     opacity: 0;
+     font-size:8px;
+}
+ .inputText {
+     font-size: 14px;
+     width: 200px;
+     height: 35px;
+}
+ .floating-label {
+     position: absolute;
+     pointer-events: none;
+     left: 48px;
+     top: 11px;
+     transition: 0.2s ease all;
+}
+ .land-3-dwn-full{
+    /* position: relative;
+     */
+     display: inline-block;
+     padding: 60px 0px;
+}
+ .land-3-dwn{
+}
+ .land-3-dwn-img{
+     float: left;
+     width: 40%;
+}
+ .land-3-dwn-img img{
+     width: 100%;
+     height: 350px;
+     -webkit-object-fit: cover;
+     -moz-object-fit: cover;
+     -o-object-fit: cover;
+     -ms-object-fit: cover;
+     object-fit: cover;
+}
+ .land-3-dwn-right{
+     float: left;
+     width: 60%;
+     padding-left: 100px;
+}
+ .land-3-dwn-right h2{
+     font-size: 48px;
+     line-height: 62px;
+}
+ .land-3-dwn-right p{
+     line-height: 26px;
+     color: #495e71;
+}
+ .land-3-dwn-right a{
+     margin-right: 15px;
+}
+ .land-3-banner-form{
+}
+ .land-3-banner-form img{
+     width: 77%;
+     margin-top: 28px;
+     box-shadow: 0px 19px 15px -15px rgba(0,0,0,0.76);
+     border-radius: 30px;
+}
+ .ava-tit{
+}
+ .ava-tit h2{
+     text-align: center;
+     margin-bottom: 35px;
+     font-size: 30px;
+     font-weight: 300;
+     line-height: 30px;
+}
+ .ava-tit h2 span{
+     font-size: 60px;
+     line-height: 60px;
+     font-weight: 700;
+     display: block;
+}
+ .enquiry{
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     padding-top: 80px;
+}
+ .enquiry-left{
+     float: left;
+     width: 20%;
+     color: #ffffff;
+     padding: 0px 60px 0px 0px;
+}
+ .enquiry-left img{
+     width: 100%;
+}
+ .enquiry-left-1{
+     float: left;
+     width: 40%;
+     color: #1c2938;
+     padding: 0px 60px 50px 0px;
+}
+ .enquiry-left-1 ul{
+}
+ .enquiry-left-1 ul li{
+     margin-bottom: 25px;
+     padding-left: 50px;
+}
+ .enquiry-left-1 ul li h4{
+     font-size: 18px;
+}
+ .enquiry-left-1 ul li p{
+     font-size: 13px;
+}
+ .enquiry-left-1 ul li:before{
+     font-size: 40px;
+     margin-top: 4px;
+     margin-left: -58px;
+     color: #17b365;
+     font-weight: 500;
+}
+ .enquiry-left-1 ul li:nth-child(1):before{
+     content: "file_download";
+}
+ .enquiry-left-1 ul li:nth-child(2):before{
+     content: "adb";
+}
+ .enquiry-left-1 ul li:nth-child(3):before{
+     content: "headset";
+}
+ .enquiry-right{
+}
+ 
+ 
+/*-------------------------------------------------*/
+/* = BANNER GRID
+/*-------------------------------------------------*/ 
+.ban-grid{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 3px;
+    margin-bottom: -147px;
+    position: relative;
+    box-shadow: 0 10px 60px -13px rgba(0,0,0,0.2);
+}
+.ban-grid ul{}
+.ban-grid ul li{
+    float: left;
+    width: 33.333%;
+}
+.ban-grid ul li div{
+    border: 1px solid #f4f4f4;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 10px;-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;
+}
+.ban-grid ul li div:hover{    box-shadow: 0 10px 60px -13px rgba(0,0,0,0.2);-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+.ban-grid ul li div img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3px 3px 0px 0px;
+}
+.ban-grid ul li div h4{
+    padding: 15px 0px 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ban-grid ul li div p{
+    margin: 0px;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #7f7979;
+}
+.ban-grid ul li div p b{}
+.ban-grid ul li div span{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    background: #12bd19;
+    color: #fff;
+    font-weight: 500;
+    padding: 1px 6px;
+    border-radius: 50px;
+}
+
+
+/*-------------------------------------------------*/
+/* = TAB
+/*-------------------------------------------------*/
+.tab{margin-top: 250px;}
+.tab-head{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 40px;
+}
+.tab-head ul{
+    margin: 0 auto;
+    display: table;
+}
+.tab-head ul li{
+    float: left;
+    margin: 0px 10px;
+}
+.tab-head ul li span{
+    width: 65px;
+    height: 65px;
+    background: #f4f4f4;
+    float: left;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;
+}
+.tab-head ul li span:before{
+    content: "airplay";
+    font-size: 34px;
+    color: #bdbdbd;
+    font-weight: 500;
+    margin: 15px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;
+}
+.tab-head ul li .tic1:before{content: "airplay";}
+.tab-head ul li .tic2:before{content: "android";}
+.tab-head ul li .tic3:before{content: "laptop_mac";}
+.tab-head ul li .tic4:before{content: "notifications_active";}
+.tab-head ul li .tic5:before{content: "camera";}
+.tab-head ul li span:hover{
+    background: #12bd19;
+    border: 1px solid #12bd19;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;	
+}
+.tab-head ul li span:hover:before {
+    color: #ffffff;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;
+}
+.tab-head ul li .tic{}
+.tab-head ul li .tact{
+    background: #12bd19;
+    border: 1px solid #12bd19;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;
+}
+.tab-head ul li .tact:before{color: #ffffff;}
+
+.tab-body{}
+.tab-body ul{}
+.tab-body ul li{
+    display: none;
+}
+.tbody{
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.tbody-lhs{
+    float: left;
+    width: 30%;
+}
+.tbody-lhs img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.tbody-rhs{
+    float: left;
+    width: 70%;
+    padding-left: 50px;
+}
+.tbody-rhs h4{
+    font-size: 32px;
+    font-weight: 500;
+}
+.tbody-rhs p{
+    font-size: 15.5px;
+}
+.tbody-rhs a{
+    border: 1px solid #12bd19;
+    border-radius: 50px;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 14px;
+    background: #12bd19;
+    font-weight: 400;
+    float: left;
+    margin-top: 15px;
+}
+.tab-body ul .tshow{display:block;}
+
+/*-------------------------------------------------*/
+/* = FOOTER FORM
+/*-------------------------------------------------*/
+
+.country{
+     padding: 80px 0px;
+     /* background: url(../images/worldmap.png) no-repeat center #1156c2; */
+     background-size: 50%;
+     margin-top: 70px;
+     background: #2a3147;
+     background-image: radial-gradient(        circle at top center,        #3d4f60,       #13293d      );
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+ .country-inn{
+     text-align: center;
+     font-size: 24px;
+     font-weight: 300;
+     color: #fff;
+}
+ .country-inn h4{
+     font-weight: 200;
+}
+ .country-inn h4 span{
+}
+ .country .cont1{
+     font-weight: 700;
+     font-size: 32px;
+}
+ .country .cont2{
+     font-weight: 700;
+     font-size: 32px;
+     display: block;
+}
+.country-inn iframe{
+    width: 600px;
+    height: 335px;
+    margin-bottom: 20px;
+}
+
+
+.review{
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 1px solid #ffffff21;
+}
+.review ul{}
+.review ul li{
+    float: left;
+    width: 33.333%;
+}
+.review ul li div{
+    /* margin: 0px 10px; */
+}
+.review ul li div p{
+    font-weight: 500;
+}
+.review-box{
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 2px;
+    box-shadow: 0 10px 60px -13px rgba(0,0,0,0.2);
+    margin: 0px 10px;
+}
+.review-box p{
+    margin: 0px;
+    font-size: 16px;
+}
+.review-user{
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 25px;
+}
+.review-user img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    float: left;
+}
+.review-user-rat{
+    float: left;
+    padding-left: 20px;
+}
+.review-user-rat h4{
+    font-size: 17px;
+    line-height: 20px;
+}
+.review-user-rat span{
+    font-weight: 500;
+    color: #919191;
+    font-size: 13px;
+}
+.star{
+    margin-top: 4px;
+}
+.star i{
+    font-family: 'Material Icons';
+    text-align: center;
+    font-style: initial;
+    color: #FF9800;
+    font-size: 16px;
+    letter-spacing: 0px;
+    float: left;
+}
+
+/*-------------------------------------------------*/
+/* = FOOTER FORM
+/*-------------------------------------------------*/
+.df{
+    margin: 80px 0px;
+    position: relative;    display: inline-block;
+}
+.df-main{
+    /* padding: 30px 40px 30px 40px; */
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 16px 37px -22px rgba(2,2,2,0.32);
+    box-shadow: 0 3px 14px -1px rgba(0,0,0,0.2);
+    float: left;
+}
+
+.df-main {}
+.df-lhs{
+    float: left;
+    width: 50%;
+}
+.df-lhs img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 2px;
+    float: left;
+}
+.df-rhs{
+    float: left;
+    width: 50%;
+}
+.df-rhs .land-3-banner-form{}
+/*-------------------------------------------------*/
+/* = TRANSION EFFECTS 
+/*-------------------------------------------------*/
+ @-webkit-keyframes fadeIn {
+     from {
+         opacity:0;
+    }
+     to {
+         opacity:1;
+    }
+}
+ @-moz-keyframes fadeIn {
+     from {
+         opacity:0;
+    }
+     to {
+         opacity:1;
+    }
+}
+ @keyframes fadeIn {
+     from {
+         opacity:0;
+    }
+     to {
+         opacity:1;
+    }
+}
+ .fade-in {
+     opacity:0;
+    /* make things invisible upon start */
+     -webkit-animation:fadeIn ease-in 1;
+    /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+     -moz-animation:fadeIn ease-in 1;
+     animation:fadeIn ease-in 1;
+     -webkit-animation-fill-mode:forwards;
+    /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+     -moz-animation-fill-mode:forwards;
+     animation-fill-mode:forwards;
+     -webkit-animation-duration:1s;
+     -moz-animation-duration:1s;
+     animation-duration:1s;
+}
+ .fade-in.one {
+     -webkit-animation-delay: 0.7s;
+     -moz-animation-delay: 0.7s;
+     animation-delay: 0.7s;
+}
+ .fade-in.two {
+     -webkit-animation-delay: 1.2s;
+     -moz-animation-delay:1.2s;
+     animation-delay: 1.2s;
+}
+ .fade-in.three {
+     -webkit-animation-delay: 1.6s;
+     -moz-animation-delay: 1.6s;
+     animation-delay: 1.6s;
+}
+ .fade-in.four {
+     -webkit-animation-delay: 2.1s;
+     -moz-animation-delay: 2.1s;
+     animation-delay: 2.1s;
+}
+/*-------------------------------------------------*/
+/* = FOOTER 
+/*-------------------------------------------------*/
+ .land-1-foot-full{
+     background: hsl(0, 0%, 100%);
+     padding: 10px 0px;
+}
+ .land-1-foot-text{
+}
+ .land-1-foot-text p{
+     text-align: center;
+     margin: 0px;
+     font-size: 13px;
+     color: #908f8f;
+}
+ .land-1-foot-text p a{
+     color: #908f8f;
+}
+
+ .alert {
+     position: relative;
+     padding: .75rem 1.25rem;
+     margin-bottom: 1rem;
+     border: 1px solid transparent;
+     border-radius: .25rem;
+}
+ .alert-success {
+     color: #155724;
+     background-color: #d4edda;
+     border-color: #c3e6cb;
+     text-align: center;
+}
+ .foot-blue{
+     background: #eaf8ff;
+     border-top: 1px solid #c1d7e3;
+     padding: 60px 0px;
+     border-bottom: 1px solid #c1d7e3;
+}
+ .foot-sec{
+     position: relative;
+     overflow: hidden;
+     margin-top: 55px;
+}
+
+
+footer {
+    /* background-image: url(../images/dark-pattern.jpg); */
+    background-repeat: repeat;
+    background-position: top left;
+    background: #13293d;
+}
+footer {
+    color: #6e7173;
+    font-weight: 300;
+    padding: 75px 0px;
+    text-align: left;
+}
+footer h4,
+footer .strong {
+    color: #acadaf;
+    font-weight: 500;
+    font-size: 18px;
+}
+footer h4 {
+    margin-bottom: 15px;
+}
+footer .highlighted {
+    color: #FFC107;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: -1px;
+}
+footer ul.two-columns li {
+    width: 100%;
+    float: left;
+}
+footer ul.two-columns::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer ul {
+    padding: 0px;
+}
+footer ul li {
+    list-style-type: none;
+    padding: 4px 0px;
+}
+footer ul li a {
+    color: #6e7173;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+footer ul li a:hover {
+    color: #828284;
+    padding-left: 10px;
+}
+.foot-logo {} .foot-logo img {
+    padding-bottom: 20px;
+    width: 175px;
+}
+.foot-sec2 {
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.foot-social {} .foot-social ul {
+    padding: 0px;
+}
+.foot-social ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 10px;
+}
+.foot-social ul li a img{
+    width: 32px;
+    height: 32px;
+}
+.foot-social ul li a:hover {
+    padding-left: 0px;
+}
+.copy {
+    background: #131925;
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+}
+.copy p {
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 8px;
+}
+.copy p a {
+    color: #636363;
+}
+ 
+ 
+ 
+ 
+/*-------------------------------------------------*/
+/* = MOBILE FRIENDLY STYLES(RESPONSIVE STYLES) 
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/* = When the browser is between 0px and 1050px wide,below css will be applied. 
+/*-------------------------------------------------*/
+ @media screen and (max-width:1050px){
+     .land-container{
+         width: 85%;
+    }
+     .land-3-banner-conte{
+		     padding: 90px 0px 115px 280px;
+    }
+	.land-3-banner-conte:before{
+		    margin-left: -290px;
+	}
+     .land-3-banner-form{
+         /* width: 40%; */
+    }
+     .land-3-banner-form img {
+         width: 96%;
+         margin-top: 0px;
+         position: relative;
+    }
+     .land-3-top-logo {
+         width: 30%;
+    }
+     .land-3-top-contact{
+         width:70%;
+    }
+     .land-3-banner-form{
+         margin-top:35px;
+    }
+     .land-3-banner-full:before{
+    }
+}
+/*-------------------------------------------------*/
+/* = When the browser is between 0px and 992px wide,below css will be applied. 
+/*-------------------------------------------------*/
+ @media screen and (max-width:992px){
+     .land-3-top-contact ul li {
+         margin-left: 40px;
+         font-size: 12px;
+    }
+     .land-3-banner-full {
+         padding: 40px 0px 55px 0px;
+    }
+     .land-pack{
+         width:100%;
+    }
+     .enquiry-left{
+         display:none;
+    }
+     .enquiry-left-1 {
+         width: 50%;
+         padding: 0px 60px 50px 0px;
+    }
+     .enquiry-right {
+         width: 100%;
+    }
+     .ed-rsear-in{
+         width:100%;
+    }
+	.ban-grid ul li {
+		width: 100%;
+	}
+	.review ul li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.land-com-form {
+    padding: 0px 60px;
+    width: 100%;
+}
+.tab {
+    margin-top: 170px;
+}.col2 {
+    width: 33.333%;
+}
+
+}
+/*-------------------------------------------------*/
+/* = When the browser is between 0px and 767px wide,below css will be applied. 
+/*-------------------------------------------------*/
+ @media screen and (max-width:767px){
+     .land-3-top-logo, .land-3-dwn-img, .land-3-dwn-right {
+         width: 100%;
+    }
+     .land-3-top-contact{
+         display:none;
+    }
+     .land-3-top-logo a img {
+         margin: 0 auto;
+         display: table;
+    }
+     .land-3-banner-conte h1{
+         font-size: 44px;
+         line-height: 57px;
+         margin-bottom: 20px;
+         text-align: center;
+    }
+     .land-3-banner-conte{
+         width: 100%;
+         padding: 50px 0px 50px 0px;
+    }
+     .land-3-banner-form{
+         width:100%;
+    }
+     .land-3-banner-form img {
+         width: 75%;
+         margin:0 auto;
+         display:table;
+    }
+     .land-3-banner-conte p{
+         text-align:center;
+    }
+     .demo-form {
+         width: 75%;
+         display: table;
+         margin: 0 auto;
+    }
+     .ed-rsear-in ul li{
+         width:100%;
+         padding: 10px 0px;
+    }
+     .ed-flag img {
+         border-radius: 3px;
+         width: 20px;
+    }
+     .ava-tit h2 {
+         font-size: 24px;
+         line-height: 24px;
+    }
+     .ava-tit h2 span {
+         font-size: 42px;
+         line-height: 42px;
+    }
+     .enquiry-left-1 {
+         width: 100%;
+         padding: 0px 0px 50px 0px;
+    }
+     .enquiry-right {
+         width: 100%;
+         padding: 0px 30px 30px 30px;
+    }
+
+     .land-3-banner-conte a {
+         margin: 0 auto;
+         display: table;
+    }
+	.country-inn iframe {
+    width: 100%;
+    height: 300px;
+	}
+	.df-lhs {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.df-rhs {
+    width: 100%;
+}
+.tab-head ul li span:before{
+	    margin: 8px;    font-size: 24px;
+}
+.tab-head ul li span{
+    width: 40px;
+    height: 40px;	
+}
+.col2 {
+    width: 50%;
+}
+.col3 {
+    width: 100%;
+}
+.col4 {
+    width: 100%;
+}
+footer{    padding: 35px 0px;}
+}
+/*-------------------------------------------------*/
+/* = When the browser is between 0px and 480px wide,below css will be applied. 
+/*-------------------------------------------------*/
+ @media screen and (max-width:480px){
+     .land-3-dwn-right a {
+         margin-right: 0px;
+         width: 100%;
+    }
+     .land-3-banner-conte h1 span {
+         font-size: 26px;
+         line-height: 28px;
+    }
+     .land-3-banner-conte h1{
+         font-size: 32px;
+         line-height: 36px;
+    }
+	.tbody-lhs {
+    width: 100%;margin-bottom:20px;
+}
+.tbody-rhs {
+    width: 100%;
+    padding-left: 0px;
+}
+.ban-grid{padding:0px;}
+.col2 {
+    width: 100%;
+}
+}
+/*-------------------------------------------------*/
+/* = When the browser is between 0px and 400px wide,below css will be applied. 
+/*-------------------------------------------------*/
+ @media screen and (max-width:400px){
+.tab-head ul li {
+    margin: 0px 5px;
+}	 
+}
+ 
